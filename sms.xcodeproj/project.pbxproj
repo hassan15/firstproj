@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB705B211696D7760008C240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB705B201696D7760008C240 /* UIKit.framework */; };
+		FB705B231696D7760008C240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB705B221696D7760008C240 /* Foundation.framework */; };
+		FB705B251696D7760008C240 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB705B241696D7760008C240 /* CoreGraphics.framework */; };
+		FB705B2B1696D7760008C240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB705B291696D7760008C240 /* InfoPlist.strings */; };
+		FB705B2D1696D7760008C240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB705B2C1696D7760008C240 /* main.m */; };
+		FB705B311696D7760008C240 /* smsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB705B301696D7760008C240 /* smsAppDelegate.m */; };
+		FB705B431696E0DD0008C240 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB705B411696E0DD0008C240 /* FirstViewController.m */; };
+		FB705B441696E0DD0008C240 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB705B421696E0DD0008C240 /* FirstViewController.xib */; };
+		FB705B481696E11C0008C240 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB705B461696E11C0008C240 /* SettingsViewController.m */; };
+		FB705B491696E11C0008C240 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB705B471696E11C0008C240 /* SettingsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB705B1C1696D7760008C240 /* sms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB705B201696D7760008C240 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB705B221696D7760008C240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB705B241696D7760008C240 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB705B281696D7760008C240 /* sms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sms-Info.plist"; sourceTree = "<group>"; };
+		FB705B2A1696D7760008C240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB705B2C1696D7760008C240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB705B2E1696D7760008C240 /* sms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sms-Prefix.pch"; sourceTree = "<group>"; };
+		FB705B2F1696D7760008C240 /* smsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smsAppDelegate.h; sourceTree = "<group>"; };
+		FB705B301696D7760008C240 /* smsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smsAppDelegate.m; sourceTree = "<group>"; };
+		FB705B401696E0DD0008C240 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FB705B411696E0DD0008C240 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FB705B421696E0DD0008C240 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		FB705B451696E11C0008C240 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		FB705B461696E11C0008C240 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		FB705B471696E11C0008C240 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB705B191696D7760008C240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB705B211696D7760008C240 /* UIKit.framework in Frameworks */,
+				FB705B231696D7760008C240 /* Foundation.framework in Frameworks */,
+				FB705B251696D7760008C240 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB705B111696D7760008C240 = {
+			isa = PBXGroup;
+			children = (
+				FB705B3D1696E05A0008C240 /* ViewControllers */,
+				FB705B261696D7760008C240 /* sms */,
+				FB705B1F1696D7760008C240 /* Frameworks */,
+				FB705B1D1696D7760008C240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB705B1D1696D7760008C240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB705B1C1696D7760008C240 /* sms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB705B1F1696D7760008C240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB705B201696D7760008C240 /* UIKit.framework */,
+				FB705B221696D7760008C240 /* Foundation.framework */,
+				FB705B241696D7760008C240 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB705B261696D7760008C240 /* sms */ = {
+			isa = PBXGroup;
+			children = (
+				FB705B2F1696D7760008C240 /* smsAppDelegate.h */,
+				FB705B301696D7760008C240 /* smsAppDelegate.m */,
+				FB705B271696D7760008C240 /* Supporting Files */,
+			);
+			path = sms;
+			sourceTree = "<group>";
+		};
+		FB705B271696D7760008C240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB705B281696D7760008C240 /* sms-Info.plist */,
+				FB705B291696D7760008C240 /* InfoPlist.strings */,
+				FB705B2C1696D7760008C240 /* main.m */,
+				FB705B2E1696D7760008C240 /* sms-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB705B3D1696E05A0008C240 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB705B3E1696E05A0008C240 /* FirstViewController */,
+				FB705B3F1696E05A0008C240 /* SettingsViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FB705B3E1696E05A0008C240 /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FB705B401696E0DD0008C240 /* FirstViewController.h */,
+				FB705B411696E0DD0008C240 /* FirstViewController.m */,
+				FB705B421696E0DD0008C240 /* FirstViewController.xib */,
+			);
+			path = FirstViewController;
+			sourceTree = "<group>";
+		};
+		FB705B3F1696E05A0008C240 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FB705B451696E11C0008C240 /* SettingsViewController.h */,
+				FB705B461696E11C0008C240 /* SettingsViewController.m */,
+				FB705B471696E11C0008C240 /* SettingsViewController.xib */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB705B1B1696D7760008C240 /* sms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB705B3A1696D7760008C240 /* Build configuration list for PBXNativeTarget "sms" */;
+			buildPhases = (
+				FB705B181696D7760008C240 /* Sources */,
+				FB705B191696D7760008C240 /* Frameworks */,
+				FB705B1A1696D7760008C240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sms;
+			productName = sms;
+			productReference = FB705B1C1696D7760008C240 /* sms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB705B131696D7760008C240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = sms;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = PUCIT;
+			};
+			buildConfigurationList = FB705B161696D7760008C240 /* Build configuration list for PBXProject "sms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB705B111696D7760008C240;
+			productRefGroup = FB705B1D1696D7760008C240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB705B1B1696D7760008C240 /* sms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB705B1A1696D7760008C240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB705B2B1696D7760008C240 /* InfoPlist.strings in Resources */,
+				FB705B441696E0DD0008C240 /* FirstViewController.xib in Resources */,
+				FB705B491696E11C0008C240 /* SettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB705B181696D7760008C240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB705B2D1696D7760008C240 /* main.m in Sources */,
+				FB705B311696D7760008C240 /* smsAppDelegate.m in Sources */,
+				FB705B431696E0DD0008C240 /* FirstViewController.m in Sources */,
+				FB705B481696E11C0008C240 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB705B291696D7760008C240 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB705B2A1696D7760008C240 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB705B381696D7760008C240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB705B391696D7760008C240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB705B3B1696D7760008C240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sms/sms-Prefix.pch";
+				INFOPLIST_FILE = "sms/sms-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB705B3C1696D7760008C240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sms/sms-Prefix.pch";
+				INFOPLIST_FILE = "sms/sms-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB705B161696D7760008C240 /* Build configuration list for PBXProject "sms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB705B381696D7760008C240 /* Debug */,
+				FB705B391696D7760008C240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB705B3A1696D7760008C240 /* Build configuration list for PBXNativeTarget "sms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB705B3B1696D7760008C240 /* Debug */,
+				FB705B3C1696D7760008C240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB705B131696D7760008C240 /* Project object */;
+}
