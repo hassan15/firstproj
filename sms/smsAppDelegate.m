@@ -7,21 +7,47 @@
 //
 
 #import "smsAppDelegate.h"
-
-#import "smsViewController.h"
+#import "FirstViewController.h"
+#import "SettingsViewController.h"
 
 @implementation smsAppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[smsViewController alloc] initWithNibName:@"smsViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+
+    //CREATE FIRST NAVIGATION VC
+    FirstViewController *firstVC = [[FirstViewController alloc]initWithNibName:@"FirstViewController" bundle:nil];
+    UINavigationController *firstNavVC = [[UINavigationController alloc]initWithRootViewController:firstVC];
+        
+    //CREAT AND ADD FIRST VC AS A ROOT VC OF FIRST NAV VC
+    
+    
+    
+    //CREATE SETTINGS NAV VC
+    //CREATE AND ADD SETTINGSVC AS A ROOT VC OF SETTINGS NAV VC
+    SettingsViewController *settingsVC = [[SettingsViewController alloc]initWithNibName:@"SettingsViewController" bundle:nil];
+    UINavigationController *settingsNavVC = [[UINavigationController alloc]initWithRootViewController:settingsVC];
+    
+    
+    
+    //CREATE TAB BAR VC AND ADD BOTH NAV VC AS VIEW CONTROLLERS LIST IF TABBAR
+    UITabBarController *tabbarVC = [[UITabBarController alloc]init];
+    tabbarVC.viewControllers = [NSArray arrayWithObjects:firstNavVC,settingsNavVC, nil];
+
+    
+    
+    self.window.rootViewController = tabbarVC;
     [self.window makeKeyAndVisible];
+    
+    [firstVC release];
+    [firstNavVC release];
+    [settingsVC release];
+    [settingsNavVC release];
+    [tabbarVC release];
     return YES;
 }
 

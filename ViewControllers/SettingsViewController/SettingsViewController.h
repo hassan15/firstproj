@@ -1,5 +1,5 @@
 //
-//  smsAppDelegate.h
+//  SettingsViewController.h
 //  sms
 //
 //  Created by Ali Raza on 1/4/13.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface smsAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface SettingsViewController : UIViewController
 
 @end
